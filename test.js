@@ -1,7 +1,7 @@
 const path = require('path')
 const cwd = require('./')
 
-describe('resolve-cwd', () => {
+describe('path-cwd', () => {
   it('throws with bad path', () => {
     expect(() => cwd(0)).toThrowError(/expecting path to be string/i)
   })

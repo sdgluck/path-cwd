@@ -30,9 +30,9 @@ var cwd = require('path-cwd')
 
 ### `cwd([path]) : String`
 
-Resolve a path from within the cwd.
+Get a path in the cwd.
 
-- __path__ {String} _(optional)_ path to resolve in the cwd
+- __path__ {String} _(optional)_ path to get in the cwd
 
 Returns a string.
 
@@ -43,6 +43,10 @@ import cwd from 'path-cwd'
 
 cwd('pineapple') //=> C:/User/Spongebob Squarepants/projects/bikini-bottom/pineapple
 ```
+
+## See also
+
+- [`path-homedir`](https://github.com/sdgluck/path-homedir)
 
 ## Contributing
 
