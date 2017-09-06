@@ -1,6 +1,6 @@
 {
   "name": "path-cwd",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Get a path in the cwd",
   "main": "index.js",
   "scripts": {

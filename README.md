@@ -47,6 +47,7 @@ cwd('pineapple') //=> C:/User/Spongebob Squarepants/projects/bikini-bottom/pinea
 ## See also
 
 - [`path-homedir`](https://github.com/sdgluck/path-homedir)
+- [`path-__dirname`](https://github.com/sdgluck/path-__dirname)
 
 ## Contributing
 
