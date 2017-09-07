@@ -1,4 +1,4 @@
-const _path = require('path')
+const resolve = require('path').resolve
 
 module.exports = function pathCwd (path) {
   path = typeof path === 'undefined' ? '' : path
@@ -7,5 +7,5 @@ module.exports = function pathCwd (path) {
     throw new Error('Expecting path to be string, got "' + typeof path + '".')
   }
 
-  return _path.resolve(process.cwd(), path)
+  return resolve(process.cwd(), path)
 }
