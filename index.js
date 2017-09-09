@@ -1,4 +1,6 @@
-const resolve = require('path').resolve
+'use strict'
+
+var resolve = require('path').resolve
 
 module.exports = function pathCwd (path) {
   path = typeof path === 'undefined' ? '' : path
